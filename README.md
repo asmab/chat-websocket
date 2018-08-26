@@ -18,7 +18,7 @@ Chat room
     │          │   ├── configuration
     │          │   ├── controllers
     │          │   ├── Application.java
-    │          │So, here we set up @MessageMapping(“/send/message”), and once this URL will be triggered — we will simply send message to all clients subscribed to /chat subscription.
+    │
     │       ├── resources
     │          ├── application.yml                
     └── ...
