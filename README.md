@@ -5,7 +5,7 @@ Chat room
 - Client (Front-end): Single web page with Angular 5 
   
   
-  ## char-room-server
+  ## chat-room-server
   
   ### Folder structure 
   
@@ -18,12 +18,13 @@ Chat room
     │          │   ├── configuration
     │          │   ├── controllers
     │          │   ├── Application.java
-    │          │
+    │          │So, here we set up @MessageMapping(“/send/message”), and once this URL will be triggered — we will simply send message to all clients subscribed to /chat subscription.
     │       ├── resources
     │          ├── application.yml                
     └── ...
+    .
     
-  pom.xml file contains two dependencies:
+  * pom.xml file contains two dependencies:
   1- spring-boot-starter-web
   2- spring-boot-starter-websocket
 
